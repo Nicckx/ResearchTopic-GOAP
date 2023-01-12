@@ -25,7 +25,7 @@ Actions have an effect and a precondition. The precondition has to be met in ord
 
 ## Own Implementation
 
-
+![MyImplementation](https://github.com/Nicckx/ResearchTopic-GOAP/blob/main/GOAP.gif)
 
 All the code was implemented using `C++`.
 Created a set a actions e.g (ChopTree, GetAxe, GoToSafePlace, ...)
