@@ -15,7 +15,7 @@ Both of these plans will result in fullfilling the goal (desiredState).
 If the lumberjack can get an axe he can chop logs to build a shelter. But if he doesn't find an axe he has to pick up branches.
 
 ## Why GOAP?
-When dealing with FSM (Finit State Machines) or BT (Behaviour Trees) you usually need to think about all possibilities beforehand. Goap on the other hand calculates states in runtime considering the current world state. It decouples the action from each other so you can focus on each action individually. In case you want to add another action you can easily insert it while no other actions have to be changed.
+When dealing with FSM (Finite State Machines) or BT (Behaviour Trees) you usually need to think about all possibilities beforehand. Goap on the other hand calculates states in runtime considering the current world state. It decouples the action from each other so you can focus on each action individually. In case you want to add another action you can easily insert it while no other actions have to be changed.
 
 ## Aditional info
 In GOAP you usually find `Agents`, `Goals`, `Actions` and `Planners`.
@@ -28,8 +28,8 @@ Actions have an effect and a precondition. The precondition has to be met in ord
 ![MyImplementation](https://github.com/Nicckx/ResearchTopic-GOAP/blob/main/GOAP.gif)
 
 All the code was implemented using `C++`.
-Created a set a actions e.g (ChopTree, GetAxe, GoToSafePlace, ...)
-Created a set goals e.g (MakeFirePit, GoSleep ...)
+Created a set of actions e.g (ChopTree, GetAxe, GoToSafePlace, ...)
+Created a set of goals e.g (MakeFirePit, GoSleep ...)
 Depending on the highest priority goal it creates a plan to satisfy the goal (desiredWorldState)
 In case we get a new goal --> it creates a new plan which satisfy this goal now.
 Priority of goals can be changed via keyinputs.
@@ -43,4 +43,5 @@ Next step would be to apply the logic to an actual agent that runs in a dynamic 
 
 #### Goal Oriented Action Planning
 -- GOAP - https://gamedevelopment.tutsplus.com/tutorials/goal-oriented-action-planning-for-a-smarter-ai--cms-20793
+
 -- GOAP - https://www.youtube.com/watch?v=LhnlNKWh7oc
